@@ -1,5 +1,5 @@
 from colab_toolbox.common.utils import get_script_content, write_script, run_script
-class ColabTool:
+class ColabInstall:
     def __init__(self, tool_name):
         self.tool_name = tool_name
         self.content = get_script_content(f'setup_{tool_name}.sh')

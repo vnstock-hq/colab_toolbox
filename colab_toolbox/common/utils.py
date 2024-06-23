@@ -37,7 +37,7 @@ def get_script_content(script_name):
     :param script_name: Name of the script file (e.g., 'setup_selenium.sh')
     :return: Script content as a string
     """
-    script_path = os.path.join(os.path.dirname(__file__), '..', 'scripts', script_name)
+    script_path = os.path.join(os.path.dirname(__file__), '..', 'script', script_name)
     with open(script_path, "r") as script_file:
         content = script_file.read()
     return content
