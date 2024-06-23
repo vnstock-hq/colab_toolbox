@@ -25,3 +25,4 @@ sudo mv /tmp/chromedriver /usr/local/bin/chromedriver
 
 # Install Selenium
 pip install selenium
+pip install chromedriver-autoinstaller
