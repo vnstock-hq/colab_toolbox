@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        'colab_toolbox': ['scripts/*.sh'],
+        'colab_toolbox': ['script/*.sh'],
     },
     install_requires=[
         # Add any additional packages required by your project
