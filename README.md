@@ -7,8 +7,12 @@ Effortlessly set up and configure multiple tools for Google Colab without the ne
 - **Setup Selenium and ChromeDriver**: Easily install and configure Selenium and ChromeDriver for web scraping and automation tasks.
 - **Setup Quarto for Documentation Export**: Quickly set up Quarto for exporting your documentation in different formats.
 - **Setup Python Environments for Various Tasks**: Install and configure environments tailored for data ingestion, backtesting, modeling, and more.
-- **Common Git Commands for Colab**: Simplify Git operations within Google Colab.
-- **Authenticate Google Services Using Service Account Credentials**: Authenticate and access Google services securely.
+- **Setup ocrmypdf**
+
+---
+
+- Future: **Common Git Commands for Colab**: Simplify Git operations within Google Colab.
+- Future: **Authenticate Google Services Using Service Account Credentials**: Authenticate and access Google services securely.
 
 ## Installation
 
