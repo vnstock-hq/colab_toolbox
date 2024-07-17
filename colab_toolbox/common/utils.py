@@ -1,5 +1,6 @@
 import os
 import subprocess
+from IPython import get_ipython
 
 def write_script(script_name, content):
     """
@@ -41,3 +42,11 @@ def get_script_content(script_name):
     with open(script_path, "r") as script_file:
         content = script_file.read()
     return content
+
+# function to show terminal in Colab
+def open_terminal(height=800):
+    # Load the colabxterm extension
+    get_ipython().run_line_magic('load_ext', 'colabxterm')
+
+    # Start xterm with specified height
+    get_ipython().run_line_magic('xterm', f'height={height} port=1001')
