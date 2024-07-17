@@ -38,7 +38,9 @@ ColabInstall('selenium')
 
 **Available Tools**
 
-- `selenium`: Set up Selenium and ChromeDriver for web scraping and automation.
-- `quarto`: Set up Quarto for exporting documentation.
-- `talib`: Set up TA-Lib for technical analysis.
-- `pytesseract`: Set up PyTesseract for optical character recognition.
+- `selenium`: WebDriver for automated testing of web applications
+- `quarto`: open-source scientific and technical publishing system 
+- `talib`: Technical Analysis Library for Stock Trading in Python
+- `pytesseract`: OCR tool for extracting text from images
+- `ocrmypdf`: OCR tool for extracting text from PDF files
+- `xterm`: Terminal emulator for Google Colab environment
