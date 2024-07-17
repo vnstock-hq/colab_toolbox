@@ -1,19 +1,23 @@
 # colab_toolbox
 
-Effortlessly set up and configure multiple tools for Google Colab without the need for shell commands or extensive coding.
+Simplify the setup and configuration of multiple tools in Google Colab without needing shell commands or extensive coding.
 
 ## Features
 
-- **Setup Selenium and ChromeDriver**: Easily install and configure Selenium and ChromeDriver for web scraping and automation tasks.
-- **Setup Quarto for Documentation Export**: Quickly set up Quarto for exporting your documentation in different formats.
-- **Setup Python Environments for Various Tasks**: Install and configure environments tailored for data ingestion, backtesting, modeling, and more.
-- **Setup xterm**: Enable a full terminal experience in Google Colab by setting up xterm.
-- **Setup ocrmypdf**: Easily configure OCRmyPDF for OCR processing and PDF conversion tasks.
+### Easy Installation
+- **Selenium and ChromeDriver Setup**: Seamlessly install and configure Selenium and ChromeDriver for web scraping and automation.
+- **Quarto Setup for Documentation**: Quickly configure Quarto for exporting documentation in various formats.
+- **Python Environment Setup**: Install and configure Python environments for tasks such as data ingestion, backtesting, modeling, and more.
+- **xterm Setup**: Enable a full terminal experience in Google Colab by setting up xterm.
+- **OCRmyPDF Setup**: Easily configure OCRmyPDF for OCR processing and PDF conversion.
 
----
+### Easy Access
 
-- Future: **Common Git Commands for Colab**: Simplify Git operations within Google Colab.
-- Future: **Authenticate Google Services Using Service Account Credentials**: Authenticate and access Google services securely.
+- **Git Commands for Colab**: Streamline Git operations within Google Colab.
+- **Google Sheets Integration**: Read and write data in Google Sheets using a simplified authentication flow, avoiding the complexities of configuring confidential or service account credentials.
+
+### Upcoming Features
+- **Google Services Authentication Using Service Account Credentials**: Securely authenticate and access Google services.
 
 ## Installation
 
