@@ -7,7 +7,8 @@ Effortlessly set up and configure multiple tools for Google Colab without the ne
 - **Setup Selenium and ChromeDriver**: Easily install and configure Selenium and ChromeDriver for web scraping and automation tasks.
 - **Setup Quarto for Documentation Export**: Quickly set up Quarto for exporting your documentation in different formats.
 - **Setup Python Environments for Various Tasks**: Install and configure environments tailored for data ingestion, backtesting, modeling, and more.
-- **Setup ocrmypdf**
+- **Setup xterm**: Enable a full terminal experience in Google Colab by setting up xterm.
+- **Setup ocrmypdf**: Easily configure OCRmyPDF for OCR processing and PDF conversion tasks.
 
 ---
 
