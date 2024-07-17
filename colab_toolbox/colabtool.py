@@ -9,9 +9,10 @@ class ColabInstall:
                 - quarto: open-source scientific and technical publishing system 
                 - talib: Technical Analysis Library for Stock Trading in Python
                 - pytesseract: OCR tool for extracting text from images
+                - ocrmypdf: OCR tool for extracting text from PDF files
                 - xterm: Terminal emulator for Google Colab environment
         """
-        all_tools = ['selenium', 'quarto', 'talib', 'pytesseract', 'xterm']
+        all_tools = ['selenium', 'quarto', 'talib', 'pytesseract', 'xterm', 'ocrmypdf']
         # all_preset = ['terminal', 'trading', 'publishing', 'extracting']
 
         if tool_name not in all_tools:
