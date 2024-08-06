@@ -127,7 +127,7 @@ class GitTool:
         """
         try:
             os.chdir(self.repo_dir)
-            result = subprocess.run("git pull", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+            result = subprocess.run(f"git pull https://{self.access_key}@github.com/{self.user_name}/{self.repo_name}.git {branch}", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
             print(result.stdout.decode('utf-8'))
         except subprocess.CalledProcessError as e:
             error_message = e.stderr.decode('utf-8') if e.stderr else "An error occurred during pull."

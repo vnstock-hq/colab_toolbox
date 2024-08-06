@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name='colab_toolbox',
-    version='0.1.2',
+    version='0.1.3',
     description='Effortlessly set up and configure multiple tools for Google Colab without the need for shell commands or extensive coding.',
     long_description=README,
     long_description_content_type='text/markdown',
